@@ -59,7 +59,8 @@
             "type": [
                 "null",
                 "bytes"
-            ]
+            ],
+            "default": null
         },
         {
             "name": "partitions",
@@ -80,26 +81,30 @@
                                 "type": [
                                     "null",
                                     "boolean"
-                                ]
+                                ],
+                                "default": null
                             },
                             {
                                 "name": "lower_bound",
                                 "type": [
                                     "null",
                                     "bytes"
-                                ]
+                                ],
+                                "default": null
                             },
                             {
                                 "name": "upper_bound",
                                 "type": [
                                     "null",
                                     "bytes"
-                                ]
+                                ],
+                                "default": null
                             }
                         ]
                     }
                 }
-            ]
+            ],
+            "default": null
         }
     ]
 }
